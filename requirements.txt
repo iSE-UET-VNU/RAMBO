@@ -1,0 +1,10 @@
+torch
+tqdm
+tiktoken
+transformers==4.35.0
+sentence_transformers
+pandas
+numpy
+scipy
+scikit-learn
+nltk

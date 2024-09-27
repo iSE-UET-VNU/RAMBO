@@ -1,0 +1,12 @@
+data/
+bamboo/
+defects4j/
+*.ipynb
+parsed_repositories/*
+repositories/*
+*/__pycache__/*
+cache/*
+prompts/*
+/__pycache__/
+gpt.py
+inference.py
