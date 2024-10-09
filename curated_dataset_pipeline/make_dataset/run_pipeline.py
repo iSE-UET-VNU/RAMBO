@@ -153,38 +153,6 @@ def mask_function(java_code: str) -> Optional[ASample]:
     )
 
 
-# def modified_mask_function(java_code: str) -> Optional[List[ASample]]:
-#     functions = get_functions(java_code)
-#     if not functions:
-#         return None
-
-#     result = []
-#     for function in functions:
-#         # Extract function body
-#         class_start_idx, class_end_idx = get_location(
-#             java_code, function["class_loc"]
-#         )
-#         func_body_start_idx, func_body_end_idx = get_location(
-#             java_code, function["func_body_loc"]
-#         )
-#         masked_class = (
-#             java_code[class_start_idx : func_body_start_idx + 1]
-#             + "<FILL_FUNCTION_BODY>"
-#             + java_code[func_body_end_idx - 1 : class_end_idx]
-#         )
-#         func_body = java_code[func_body_start_idx + 1 : func_body_end_idx - 1]
-
-#         result.append(
-#             ASample(
-#                 class_name=function["class_name"],
-#                 func_name=function["func_name"],
-#                 masked_class=masked_class,
-#                 func_body=func_body,
-#             )
-#         )
-#     return result
-
-
 def modified_mask_function(
     java_code: str, expected_func_name, expected_func_body: str
 ) -> Optional[List[ASample]]:
