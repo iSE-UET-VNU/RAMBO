@@ -26,7 +26,8 @@ and then ranks these usages based on the relevancy to m. Then, the identified es
 # Quickstart
 ## Download dataset
 
-[Download full repository here](https://www.dropbox.com/scl/fo/zgn1s3ad8lhxwi4n8pn06/AHQ2o8AzYIFpCLIIyYuoH48?rlkey=cx1emxzccyhurcajva5a6gnrg&st=zk5qdsn7&dl=0)
+[Download full repositories here](https://www.dropbox.com/scl/fo/zgn1s3ad8lhxwi4n8pn06/AHQ2o8AzYIFpCLIIyYuoH48?rlkey=cx1emxzccyhurcajva5a6gnrg&st=zk5qdsn7&dl=0)
+[Download parsed repositories here](https://www.dropbox.com/scl/fi/3j2t30o8zq5jrvmq2ktqk/parsed_repositories_data.zip?rlkey=lkwb4mlahwqm42zmhg9xqjnc0&st=bucv7xtb&dl=0)
 
 ## Prepare Environment
 First, we should set up a python environment. This code base has been tested under python 3.8.
